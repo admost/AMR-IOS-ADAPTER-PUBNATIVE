@@ -36,8 +36,4 @@
 - (void)pnAdWillClose;
 - (void)pnAdDidClose;
 
-- (void)pnAdClicked;
-- (void)pnAdCancel;
-
-
 @end
