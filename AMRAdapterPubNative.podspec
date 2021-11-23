@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterPubNative'
+  s.name             = 'AMRAdapterPubnative'
   s.version          = '2.4.4.2'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
