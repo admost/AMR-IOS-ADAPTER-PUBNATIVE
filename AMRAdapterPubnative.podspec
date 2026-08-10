@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterPubnative'
-  s.version          = '2.16.0.0'
+  s.version          = '3.9.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -16,9 +16,10 @@ Pod::Spec.new do |s|
  								}
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
-  s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = 'AMRAdapterPubNative/Libs/AMRAdapterPubNative.xcframework'
+  s.swift_versions = ['5']
+  s.ios.deployment_target = '12.0'
+  s.vendored_frameworks = 'AMRAdapterPubnative/Libs/AMRAdapterPubnative.xcframework'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
-  s.dependency 'AMRSDK', '~> 1.5.6'
-  s.dependency 'HyBid', '~> 2.16.0'
+  s.dependency 'AMRSDK', '~> 1.5.85'
+  s.dependency 'HyBid', '3.9.0'
 end
