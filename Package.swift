@@ -31,13 +31,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AMRAdapterPubnativeLib",
-            url: "https://github.com/admost/AMR-IOS-ADAPTER-PUBNATIVE/releases/download/3.9.0/AMRAdapterPubnative.xcframework.zip",
-            checksum: "ea99fc8990f2be6ffe8ae98ef5edcb9f2abe6e23bca076336fbc0a6280dbf562"
+            url: "https://github.com/admost/AMR-IOS-ADAPTER-PUBNATIVE/releases/download/3.9.3/AMRAdapterPubnative.xcframework.zip",
+            checksum: "728d3d9ba154be5578f946c4a07000f13d3bb95d5e003fce5652e306fe966924"
         ),
         .binaryTarget(
             name: "HyBid",
-            url: "https://github.com/pubnative/pubnative-hybid-ios-sdk/releases/download/3.9.0/HyBid.xcframework.zip",
-            checksum: "8aa3998fe5e2170a28916e0dca368f13c17cfdcb729c6724456cb11538f2bfc8"
+            url: "https://github.com/pubnative/pubnative-hybid-ios-sdk/releases/download/3.9.3/HyBid.xcframework.zip",
+            checksum: "8fd585aa45e9c1b9ff80d27f679a496d81a10652657558e4ae81a0548936b42d"
         )
     ]
 )
